@@ -578,10 +578,10 @@ geom_vline(xintercept = 13.5,size=1,colour="black")+
 geom_vline(xintercept = 10.5,size=1,colour="black")+
 scale_x_discrete(position = "top") 
 
-sd1<-(temporary5-mean(temporary5,na.rm=T))/sd(temporary5,na.rm=T)
-sd1[is.na(temporary5)]<-0
-sd2<-(temporary5b-mean(temporary5b,na.rm=T))/sd(temporary5b,na.rm=T)
-sd2[is.na(temporary5b)]<-0
+sd1<-(temporary4-mean(temporary4,na.rm=T))/sd(temporary4,na.rm=T)
+sd1[is.na(temporary4)]<-0
+sd2<-(temporary4b-mean(temporary4b,na.rm=T))/sd(temporary4b,na.rm=T)
+sd2[is.na(temporary4b)]<-0
 object<-sd2-sd1
 
 Image_data<-object
