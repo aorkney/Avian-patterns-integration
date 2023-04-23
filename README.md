@@ -7,5 +7,4 @@
 # Some results may have changed slightly, primarily as a result of updates to the analytical packages 'geomorph' and 'nlme'. 
 # The major conclsuions of the analysis remain unchanged. 
 
-# There is a mistake in subplot 'mp3', see whether you can identify it!
-# I plan to fix this.
+
